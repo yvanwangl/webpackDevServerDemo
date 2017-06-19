@@ -27,7 +27,9 @@ module.exports = {
         hot: true,
         open: true,
         contentBase: '/dist',
-        historyApiFallback: true
+        historyApiFallback: {
+            index: 'index.html'
+        }
     },
     module: {
         rules:[
